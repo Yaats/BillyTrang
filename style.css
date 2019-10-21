@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.img1 {
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+#home h1 {
+  font-size: 4em;
+  letter-spacing: 4px;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+.fill {
+  text-align: center;
+  position: relative;
+  height: 70px;
+  width: 350px;
+  margin: 50px;
+  padding: 5px 5px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #383736;
+  border: 2px #383736 solid;
+  border-radius: 4px;
+  text-transform: uppercase;
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+
+.fill:hover {
+  color: whitesmoke;
+}
+
+.fill:before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.fill:hover:before {
+  top: 0;
+}
+
+
+#projects {
+  height: 100vh;
+  background-color: greenyellow;
+}
+
+#about {
+  /* height: 40vh; */
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#about h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  color: black;
+  padding-top: 40px;
+}
+
+#about img {
+  width: auto;
+  height: 30vh;
+  border-radius: 8px;
+  border: 1px black solid;
+  margin-top: 100px;
+}
+
+#about p {
+  margin-top: 35px;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  color:#706f6f;
+  line-height: 5vh;
+  padding-bottom: 40px;
+}
+
+  h1 {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  h1.one {
+    margin-top: 0;
+  }
+  
+  h1.one:before {
+    content: "";
+    display: block;
+    border-top: solid 5px black;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 78%;
+    z-index: 1;
+  }
+  
+  h1.one span {
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5;
+  }
+
+
+.icons-links {
+  opacity: 0.4;
+  width: auto;
+  height: 4.5vh;
+  margin: 0 8px;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+#nav-bar {
+  background-color: rgba(0, 0, 0, 0.65); 
+  bottom: 0;
+  width: 100%;
+  height: 8vh;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: absolute;
+}
+
+.nav-links {
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-top: 4px;
+}
+.nav-links li a {
+  padding: 0 15.5px;
+  color: aliceblue;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+.nav-links a {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: aliceblue;
+}
+
+.nav-links a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: aliceblue;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+
+.nav-links a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.text-center {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 7vh;
+}
+
+.container {
+  text-align: center;
+  padding-top: 20%;
+}
+
+.quick-intro {
+  font-size: 22px;
+  font-family: 'PT Serif', serif;
+}
+
+#contact {
+  background-color: rgba(0, 54, 52, 0.6);
+  padding-bottom: 60px;
+}
+
+#contact h1{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-top: 0;
+  color: aliceblue;
+  padding-top: 100px;
+}
+
+#contact p {
+  padding-top: 15px;
+  font-family: 'PT Serif', serif;
+  color: aliceblue;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+#contact ul {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+#contact li {
+  border-right: 2px solid rgba(255, 255, 255, 0.4);
+  display: inline;
+}
+
+#contact li:last-child {
+  border-right: none;
+}
+
+#contact a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 0 15px;
+  font-size: 1em;
+}
+
+#contact a:hover{
+  color: black;
+}
+
+.fill2 {
+  text-align: center;
+  position: relative;
+  height: 70px;
+  width: 350px;
+  margin: 50px;
+  padding: 5px 5px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: aliceblue;
+  border: 2px aliceblue solid;
+  border-radius: 4px;
+  text-transform: uppercase;
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+
+.fill2:hover {
+  color: black;
+}
+
+.fill2:before {
+  content: "";
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.fill2:hover:before {
+  top: 0;
+}
+
