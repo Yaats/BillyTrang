@@ -85,6 +85,14 @@
 
 }
 
+.row {
+
+}
+
+#projects img {
+  width: 100%;
+}
+
 #about h1 {
   font-family: "Roboto", sans-serif;
   font-size: 50px;
@@ -93,11 +101,10 @@
 }
 
 #about img {
-  width: 15%;
+  width: 18vw;
   height: auto;
   border-radius: 8px;
   border: 1px black solid;
-  margin-top: 100px;
 }
 
 #about p {
