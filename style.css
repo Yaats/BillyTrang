@@ -71,13 +71,18 @@
 
 #projects {
   height: 100vh;
-  background-color: greenyellow;
+  background-color: lightgray;
 }
 
 #about {
-  /* height: 40vh; */
+  height: 100vh;
+}
+
+.about-content {
+  width: 70%;
   margin: 0 auto;
-  /* width: 1000px; */
+  padding-top: 150px;
+
 }
 
 #about h1 {
@@ -144,12 +149,15 @@ img:hover {
 }
 
 
-.navbar-fixed {
+.sticky {
+  position: fixed !important;
   top: 0;
-  z-index: 100;
-  position: fixed;
-  width: 100%;
+  width: 100% !important;
 }
+
+/**********************************************/
+/********************Nav Bar*******************/
+/**********************************************/
 
 #nav-bar {
   background-color: rgba(0, 0, 0, 0.65); 
@@ -159,6 +167,7 @@ img:hover {
   text-transform: uppercase;
   letter-spacing: 3px;
   position: absolute;
+  z-index: 100;
 }
 
 .nav-links {
@@ -209,9 +218,10 @@ img:hover {
   transform: scaleX(1);
 }
 
+
+
 .text-center {
   text-align: center;
-  vertical-align: middle;
   line-height: 7vh;
 }
 

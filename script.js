@@ -1,19 +1,20 @@
 // Nav-bar fixed when scroll
 
-$(document).ready(function() {
-  
-  $(window).scroll(function () {
-      console.log($(window).scrollTop())
-    if ($(window).scrollTop() > 856) {
-      $('#nav-bar').addClass('navbar-fixed');
-      $('#nav-bar').css({'position' : 'fixed'});
-    }
-    if ($(window).scrollTop() <= 856) {
-      $('#nav-bar').removeClass('navbar-fixed');
-      $('#nav-bar').css({'position' : ''});
-    }
-  });
-});
+window.onscroll = function () { myFunction() };
+
+var navbar = document.getElementById("nav-bar");
+
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+    
+  } else {
+    navbar.classList.remove("sticky");
+    
+  }
+}
 
 // Scroll nav buttons
 
