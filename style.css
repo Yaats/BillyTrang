@@ -4,9 +4,20 @@
   outline: none;
 }
 
+html {
+overflow: scroll;
+overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+width: 0px; 
+background: transparent;
+}
+
 .img1 {
   background-image: url(./images/background.jpg);
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   width: auto;
   height: 100vh;
@@ -81,16 +92,16 @@
 .about-content {
   width: 70%;
   margin: 0 auto;
-  padding-top: 150px;
+  padding-top: 170px;
 
 }
 
-.row {
-
+.project-content {
+  display: flex;
 }
 
 #projects img {
-  width: 100%;
+  width: 400px;
 }
 
 #about h1 {
@@ -101,8 +112,7 @@
 }
 
 #about img {
-  width: 18vw;
-  height: auto;
+  width: 270px;
   border-radius: 8px;
   border: 1px black solid;
 }
@@ -234,7 +244,7 @@ img:hover {
 
 .container {
   text-align: center;
-  padding-top: 20%;
+  padding-top: 290px;
 }
 
 .quick-intro {
