@@ -7,12 +7,13 @@
 html {
 overflow: scroll;
 overflow-x: hidden;
+height: 100%;
 }
 
-body { 
+/* body { 
   position: fixed;
   overflow: hidden; 
-}
+} */
 
 ::-webkit-scrollbar {
 width: 0px; 
@@ -353,7 +354,7 @@ img:hover {
   top: 0;
 }
 
-/* @media only screen and (max-width: 490px) {
+@media only screen and (max-width: 490px) {
 
 .nav-links li a {
   padding: 0 7px;
@@ -402,4 +403,4 @@ img:hover {
   margin-bottom;: 25px;
 }
 
-} */
+}
