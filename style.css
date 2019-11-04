@@ -194,7 +194,6 @@ img:hover {
 
 .nav-links li {
   display: inline-block;
-  margin-top: 4px;
 }
 
 .nav-links li a {
@@ -352,7 +351,7 @@ img:hover {
 @media only screen and (max-width: 490px) {
 
 .nav-links li a {
-  padding: 0 15.5px;
+  padding: 0 7px;
   font-size: 12px;
 }
 
@@ -365,11 +364,12 @@ img:hover {
 }
 
 #about img {
-  width: 230px;
+  width: 170px;
 }
 
 #about h1 {
   font-size: 35px;
+  padding-top: 20px;
 }
 
 #about p {
@@ -377,12 +377,24 @@ img:hover {
 }
 
 .about-content {
-  padding-top: 120px;
+  padding-top: 40px;
+}
+
+#about h1 {
 }
 
 #contact p {
   font-size: 1em;
   margin: 10px;
+}
+
+.container {
+  padding-top: 120px;
+}
+
+.fill {
+  margin-top: 25px;
+  margin-bottom;: 25px;
 }
 
 }
