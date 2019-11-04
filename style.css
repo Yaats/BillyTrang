@@ -39,7 +39,8 @@ background: transparent;
   position: relative;
   height: 70px;
   width: 350px;
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 5px 5px;
   font-weight: 700;
   font-size: 15px;
@@ -195,6 +196,7 @@ img:hover {
   display: inline-block;
   margin-top: 4px;
 }
+
 .nav-links li a {
   padding: 0 15.5px;
   color: aliceblue;
@@ -306,8 +308,9 @@ img:hover {
   position: relative;
   height: 70px;
   width: 350px;
-  margin: 50px;
   padding: 5px 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 15px;
   letter-spacing: 2px;
@@ -346,3 +349,40 @@ img:hover {
   top: 0;
 }
 
+@media only screen and (max-width: 490px) {
+
+.nav-links li a {
+  padding: 0 15.5px;
+  font-size: 12px;
+}
+
+#home h1 {
+  font-size: 50px;
+}
+
+.quick-intro {
+  font-size: 18px;
+}
+
+#about img {
+  width: 230px;
+}
+
+#about h1 {
+  font-size: 35px;
+}
+
+#about p {
+  font-size: 15px;
+}
+
+.about-content {
+  padding-top: 120px;
+}
+
+#contact p {
+  font-size: 1em;
+  margin: 10px;
+}
+
+}
