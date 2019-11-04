@@ -9,6 +9,11 @@ overflow: scroll;
 overflow-x: hidden;
 }
 
+body { 
+  position: fixed;
+  overflow: hidden; 
+}
+
 ::-webkit-scrollbar {
 width: 0px; 
 background: transparent;
@@ -348,7 +353,7 @@ img:hover {
   top: 0;
 }
 
-@media only screen and (max-width: 490px) {
+/* @media only screen and (max-width: 490px) {
 
 .nav-links li a {
   padding: 0 7px;
@@ -397,4 +402,4 @@ img:hover {
   margin-bottom;: 25px;
 }
 
-}
+} */
