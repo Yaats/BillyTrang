@@ -23,6 +23,7 @@ background: transparent;
   width: auto;
   height: 100vh;
   background-attachment: fixed;
+  overflow-y: scroll;
 }
 
 #home h1 {
