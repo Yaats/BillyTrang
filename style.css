@@ -23,7 +23,7 @@ background: transparent;
   width: auto;
   height: 100vh;
   background-attachment: fixed;
-  overflow-y: scroll;
+  overflow-y: scroll; /*LOUUUUUUUUUURD*/
 }
 
 #home h1 {
@@ -212,11 +212,11 @@ img:hover {
   text-decoration: none;
 }
 
-.nav-links a:hover {
+.nav-links a:hover, .nav-links a:active {
   color: aliceblue;
 }
 
-.nav-links a:before {
+.nav-links a:before, .nav-links a:active {
   content: "";
   position: absolute;
   width: 100%;
