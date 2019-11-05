@@ -7,20 +7,15 @@
 html {
 overflow: scroll;
 overflow-x: hidden;
-height: 100%;
 }
-
-/* body { 
-  position: fixed;
-  overflow: hidden; 
-} */
 
 ::-webkit-scrollbar {
 width: 0px; 
 background: transparent;
 }
 
-.img1 {
+
+#home {
   background-image: url(./images/background.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -28,6 +23,7 @@ background: transparent;
   width: auto;
   height: 100vh;
   background-attachment: fixed;
+  overflow-y: scroll;
 }
 
 #home h1 {
