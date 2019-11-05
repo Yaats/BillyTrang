@@ -23,7 +23,6 @@ background: transparent;
   width: auto;
   height: 100vh;
   background-attachment: fixed;
-  overflow-y: scroll; /*LOUUUUUUUUUURD*/
 }
 
 #home h1 {
@@ -183,11 +182,11 @@ img:hover {
   background-color: rgba(0, 0, 0, 0.65); 
   bottom: 0;
   width: 100%;
-  height: 8vh;
   text-transform: uppercase;
   letter-spacing: 3px;
   position: absolute;
   z-index: 100;
+  height: 8vh;
 }
 
 .nav-links {
@@ -212,11 +211,11 @@ img:hover {
   text-decoration: none;
 }
 
-.nav-links a:hover, .nav-links a:active {
+.nav-links a:hover {
   color: aliceblue;
 }
 
-.nav-links a:before, .nav-links a:active {
+.nav-links a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -352,6 +351,17 @@ img:hover {
 
 @media only screen and (max-width: 490px) {
 
+#home {
+  background-image: url(./images/mobilebackground.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+  background-attachment: fixed;
+
+}
+
 .nav-links li a {
   padding: 0 7px;
   font-size: 12px;
@@ -359,10 +369,13 @@ img:hover {
 
 #home h1 {
   font-size: 50px;
+  color: black;
 }
 
 .quick-intro {
   font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #about img {
@@ -395,8 +408,8 @@ img:hover {
 }
 
 .fill {
-  margin-top: 25px;
-  margin-bottom;: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 }
