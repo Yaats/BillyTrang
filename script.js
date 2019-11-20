@@ -27,3 +27,10 @@ $(document).ready(function() {
   });
 });
 
+$(".project-img").hover( function () {
+  $(".centered").fadeIn()
+  $(".rice-eaters").addClass("blurred")
+}, function (){$(".centered").fadeOut()
+    $(".rice-eaters").removeClass("blurred")
+}
+ );

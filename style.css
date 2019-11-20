@@ -82,10 +82,17 @@ background: transparent;
   top: 0;
 }
 
+#projects h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding: 100px 0px;
+}
 
 #projects {
   height: 100vh;
-  background-color: lightgray;
+  background-color: black;
 }
 
 #about {
@@ -106,8 +113,47 @@ background: transparent;
 }
 
 #projects img {
-  width: 400px;
+  width: 600px;
 }
+
+.blurred {
+  -webkit-animation: blur 1s forwards;
+}
+
+@-webkit-keyframes blur {
+  from { -webkit-filter: blur(0px); }
+  to { -webkit-filter: blur(10px); }
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.rice-eaters {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.project-img button {
+  margin: 10px;
+  width: 50%;
+}
+
+.project-img button:hover {
+  margin: 10px;
+  width: 50%;
+  background-color: black;
+  color: white;
+}
+
 
 #about h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
@@ -329,18 +375,10 @@ img:hover {
   margin-bottom: 30px;
 }
 
+
+
 @media only screen and (max-width: 490px) {
 
-#about {
-  background-image: url(./images/mobilebackground.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  width: auto;
-  height: 100vh;
-  background-attachment: fixed;
-
-}
 
 .nav-links li a {
   padding: 0 7px;
