@@ -95,7 +95,9 @@ background: transparent;
   background-color: black;
 }
 
-
+.project-content {
+  margin: 0 10px;
+}
 
 #about {
   height: 100vh;
@@ -167,7 +169,6 @@ background: transparent;
 
 #about p {
   margin-top: 20px;
-  font-family: 'PT Serif', serif;
   font-size: 20px;
   color:#706f6f;
   line-height: 5vh;
@@ -270,8 +271,8 @@ img:hover {
 
 .quick-intro {
   font-size: 22px;
-  font-family: 'PT Serif', serif;
-  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 #contact {
@@ -280,23 +281,19 @@ img:hover {
 }
 
 #contact h1{
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 2.5em;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 50px;
   font-weight: 700;
-  /* margin-top: 0; */
   color: aliceblue;
   padding-top: 100px;
 }
 
 #contact p {
   padding-top: 15px;
-  font-family: 'PT Serif', serif;
   color: aliceblue;
   font-size: 1.4em;
   line-height: 1.5em;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -377,7 +374,9 @@ img:hover {
 
 @media only screen and (max-width: 700px) {
 
-
+#contact p {
+  font-size: 1.2em;
+}
 
 }
 
