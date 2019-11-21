@@ -95,6 +95,8 @@ background: transparent;
   background-color: black;
 }
 
+
+
 #about {
   height: 100vh;
   display: flex;
@@ -110,10 +112,6 @@ background: transparent;
 
 .project-content {
   display: flex;
-}
-
-#projects img {
-  width: 600px;
 }
 
 .blurred {
@@ -287,7 +285,7 @@ img:hover {
   letter-spacing: 3px;
   font-size: 2.5em;
   font-weight: 700;
-  margin-top: 0;
+  /* margin-top: 0; */
   color: aliceblue;
   padding-top: 100px;
 }
@@ -298,6 +296,8 @@ img:hover {
   color: aliceblue;
   font-size: 1.4em;
   line-height: 1.5em;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #contact ul {
@@ -375,7 +375,11 @@ img:hover {
   margin-bottom: 30px;
 }
 
+@media only screen and (max-width: 700px) {
 
+
+
+}
 
 @media only screen and (max-width: 490px) {
 
